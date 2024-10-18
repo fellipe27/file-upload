@@ -13,7 +13,9 @@ export async function getUploadedFile(app) {
         const { id } = getFileParamsSchema.parse(request.params)
 
         const file = await prisma.file.findFirstOrThrow({
-            where: { id }
+            where: { 
+                id
+            }
         })
 
         const downloadUrl = getSignedUrl(
