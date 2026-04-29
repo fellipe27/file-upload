@@ -19,7 +19,7 @@ A Restful API for file upload and download built with FastAPI, using Cloudflare 
 ## 🗂️ Project structure
 ```md
 file-upload/
-    app/
+    - app/
         - api/      # API routes
         - core/     # Configurations
         - db/       # Database setup
