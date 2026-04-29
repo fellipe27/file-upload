@@ -8,7 +8,7 @@ A Restful API for file upload and download built with FastAPI, using Cloudflare 
 - Fast and async API with FastAPI
 - Auto-generate API docs (Swagger & ReDoc)
 
-## 🛠️ Tech stack
+## 🛠️ Technologies
 - **FastAPI** - Web framework
 - **SQLAlchemy** - ORM
 - **Boto3** - S3 Integration
@@ -18,13 +18,14 @@ A Restful API for file upload and download built with FastAPI, using Cloudflare 
 
 ## 🗂️ Project structure
 ```md
-app/
-    - api/      # API routes
-    - core/     # Configurations
-    - db/       # Database setup
-    - models/   # Database models
-    - schemas/  # Pydantic schemas
-    - main.py   # App entrypoint
+file-upload/
+    app/
+        - api/      # API routes
+        - core/     # Configurations
+        - db/       # Database setup
+        - models/   # Database models
+        - schemas/  # Pydantic schemas
+        - main.py   # App entrypoint
 ```
 
 ## ⚙️ Setup
