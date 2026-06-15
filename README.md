@@ -48,6 +48,7 @@ pip install -r requirements.txt
 ```
 
 4. Environment variables
+
 Create a .env file based on .env.example:
 ```bash
 R2_BUCKET=your-bucket-name
